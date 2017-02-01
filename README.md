@@ -1,11 +1,4 @@
-# LaravelBulmaComponents
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
+# Laravel Bulma Components
 
 View components and Sublime Text snippets to integrate Bulma.io easier into your Laravel 5.4 (or more) projects.
 
@@ -82,8 +75,8 @@ If you discover any security related issues, please email support@bittenbyte.io 
 
 ## Credits
 
-- [BittenByte][link-author]
-- [All Contributors][link-contributors]
+- [BittenByte](http://www.bittenbyte.io)
+- [Jose H. Milán](http://www.jmilan.net)
 
 ## License
 
