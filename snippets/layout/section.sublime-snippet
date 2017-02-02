@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+{{-- 
+    1. Attributes are optional, just remove them if you don't need them 
+--}}
+@component('bulma::layout.section'${1:, ['id' => 'my-id', 'class' => 'is-blue']})
+    ${2:my section content}
+@endcomponent
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bl-section</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+{{-- 
+    1. Attributes are optional, just remove them if you don't need them 
+    2. You can fill the left and right slots or remove them and build a centered bulma level 
+    3. is-mobile class will force you level to be displayed horizontally even in mobile viewports
+    4. You will probably want tu use the level-item sub-component within you level
+--}}
+@component('bulma::components.level'${1:, ['class' => 'is-mobile']})
+    {{-- Left/Right level starts here --}}
+    @slot('leftSide') ${2:
+        <div class="level-item">
+            something
+        </div>}
+    @endslot
+    @slot('rightSide') ${3} @endslot
+    {{-- Left/Right level ends here --}}
+ 
+    {{-- Centered level starts here --}}
+    ${4:
+        <div class="level-item has-text-centered">
+            something
+        </div>}
+    {{-- Centered level ends here --}}
+@endcomponent
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bl-level</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

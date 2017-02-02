@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+{{-- 
+    1. Attributes are optional, just remove them if you don't need them 
+--}}
+@component('bulma::components.media'${1:, ['id' => 'my-id', 'class' => 'is-blue']})
+    @slot('mediaLeft')
+        ${2:<figure>
+            <p class="image is-64x64">
+              <img src="http://bulma.io/images/placeholders/128x128.png">
+            </p>
+        </figure>}
+    @endslot
+    $3
+@endcomponent
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bl-media</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
