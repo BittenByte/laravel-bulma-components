@@ -11,7 +11,7 @@
             </p>
         </figure>}
     @endslot
-    $3
+    ${3:your media content}
 @endcomponent
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
