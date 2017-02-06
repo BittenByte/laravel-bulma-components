@@ -1,0 +1,22 @@
+<snippet>
+    <!-- Attributes are optional, just remove them if you don't need them -->
+    <content><![CDATA[
+{{-- 
+    1. Attributes are optional, just remove them if you don't need them 
+    2. CardImage is optional, a card component will be added below the header
+    3. Slots are optional
+--}}
+@component('bulma::components.message'${1:, [
+    'id' => 'my-id',
+    'class' => 'is-dark',
+    'delete' => true,
+    ]})
+    ${2:@slot('header') My header @endslot}
+    ${3:my content}
+@endcomponent
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bl-message</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
