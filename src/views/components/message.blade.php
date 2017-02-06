@@ -5,7 +5,7 @@
             <button class="delete"></button>
         @endif
     </div>
-    @if (!empty($slot))
+    @if (!empty(trim($slot)))
         <div class="message-body">
             {{ $slot }}
         </div>
