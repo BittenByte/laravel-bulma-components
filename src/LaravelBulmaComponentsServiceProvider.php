@@ -15,7 +15,7 @@ class LaravelBulmaComponentsServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/views' => resource_path('views/vendor/bulma'),
-        ]);
+        ], 'views');
     }
 
     /**

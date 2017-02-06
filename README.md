@@ -20,7 +20,7 @@ BittenByte\LaravelBulmaComponents\LaravelBulmaComponentsServiceProvider::class,
 optionally you can publish vendor assets and customize/modify those view components
 
 ```
-php artisan vendor:publish
+php artisan vendor:publish --tag="views" --provider="BittenByte\LaravelBulmaComponents\LaravelBulmaComponentsServiceProvider"
 ```
 
 If you want you want to use ST3 snippets we recommend you to symlink the snippets folder. To do that just:
